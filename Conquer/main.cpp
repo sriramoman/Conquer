@@ -10,8 +10,8 @@
 using namespace::std;
 
 void conquer(int *array,int n){
-    
     for (int i=0; i<n; i++) {
+        //© 2016 Sriram Vellangallor Subramanian. All rights reserved.
         cout<<array[i]<<" "<<(i==n-1?"\n":"");
     }
     if (n<2) {
@@ -22,7 +22,7 @@ void conquer(int *array,int n){
 }
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
+    // insert code here... XCode generated
     int n;
     cout << "Number of elements\n";
     cin>>n;
