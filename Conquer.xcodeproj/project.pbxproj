@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		805CFF901C6EB93E00473646 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 805CFF8F1C6EB93E00473646 /* main.cpp */; };
+		805CFF971C6F0AD600473646 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 805CFF961C6F0AD600473646 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +23,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		805CFF8C1C6EB93E00473646 /* MergeSort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MergeSort; sourceTree = BUILT_PRODUCTS_DIR; };
-		805CFF8F1C6EB93E00473646 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		805CFF8C1C6EB93E00473646 /* Conquer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Conquer; sourceTree = BUILT_PRODUCTS_DIR; };
+		805CFF961C6F0AD600473646 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = Conquer/main.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +41,7 @@
 		805CFF831C6EB93E00473646 = {
 			isa = PBXGroup;
 			children = (
-				805CFF8E1C6EB93E00473646 /* MergeSort */,
+				805CFF8E1C6EB93E00473646 /* Conquer */,
 				805CFF8D1C6EB93E00473646 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +49,26 @@
 		805CFF8D1C6EB93E00473646 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				805CFF8C1C6EB93E00473646 /* MergeSort */,
+				805CFF8C1C6EB93E00473646 /* Conquer */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		805CFF8E1C6EB93E00473646 /* MergeSort */ = {
+		805CFF8E1C6EB93E00473646 /* Conquer */ = {
 			isa = PBXGroup;
 			children = (
-				805CFF8F1C6EB93E00473646 /* main.cpp */,
+				805CFF961C6F0AD600473646 /* main.cpp */,
 			);
+			name = Conquer;
 			path = MergeSort;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		805CFF8B1C6EB93E00473646 /* MergeSort */ = {
+		805CFF8B1C6EB93E00473646 /* Conquer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 805CFF931C6EB93E00473646 /* Build configuration list for PBXNativeTarget "MergeSort" */;
+			buildConfigurationList = 805CFF931C6EB93E00473646 /* Build configuration list for PBXNativeTarget "Conquer" */;
 			buildPhases = (
 				805CFF881C6EB93E00473646 /* Sources */,
 				805CFF891C6EB93E00473646 /* Frameworks */,
@@ -77,9 +78,9 @@
 			);
 			dependencies = (
 			);
-			name = MergeSort;
+			name = Conquer;
 			productName = MergeSort;
-			productReference = 805CFF8C1C6EB93E00473646 /* MergeSort */;
+			productReference = 805CFF8C1C6EB93E00473646 /* Conquer */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +97,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 805CFF871C6EB93E00473646 /* Build configuration list for PBXProject "MergeSort" */;
+			buildConfigurationList = 805CFF871C6EB93E00473646 /* Build configuration list for PBXProject "Conquer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -108,7 +109,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				805CFF8B1C6EB93E00473646 /* MergeSort */,
+				805CFF8B1C6EB93E00473646 /* Conquer */,
 			);
 		};
 /* End PBXProject section */
@@ -118,7 +119,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				805CFF901C6EB93E00473646 /* main.cpp in Sources */,
+				805CFF971C6F0AD600473646 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,21 +208,21 @@
 		805CFF941C6EB93E00473646 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Conquer;
 			};
 			name = Debug;
 		};
 		805CFF951C6EB93E00473646 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Conquer;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		805CFF871C6EB93E00473646 /* Build configuration list for PBXProject "MergeSort" */ = {
+		805CFF871C6EB93E00473646 /* Build configuration list for PBXProject "Conquer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				805CFF911C6EB93E00473646 /* Debug */,
@@ -230,13 +231,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		805CFF931C6EB93E00473646 /* Build configuration list for PBXNativeTarget "MergeSort" */ = {
+		805CFF931C6EB93E00473646 /* Build configuration list for PBXNativeTarget "Conquer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				805CFF941C6EB93E00473646 /* Debug */,
 				805CFF951C6EB93E00473646 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
