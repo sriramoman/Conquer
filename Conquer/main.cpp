@@ -1,10 +1,10 @@
 //
 //  main.cpp
-//  MergeSort
+//  Conquer
 //
 //  Created by Sriram Vellangallor Subramanian on 2/12/16.
 //  Copyright © 2016 Sriram Vellangallor Subramanian. All rights reserved.
-//
+//  This code works only for n=2k where k is a Natural number.
 
 #include <iostream>
 using namespace::std;
